@@ -39,29 +39,49 @@ body {
 
 /* site_main */
 
-/* #site_main .container {
-
-} */
-
-#task_blue {
-    background-color: #45ABEA;
-    display: inline-block;
-    width: 80px;
-    height: 20px;
-    text-align: center;
-    border-radius: 3px;
-    color: white;
-    font-size: small;
+#site_main {
+    position: relative;
 }
 
-#task_border {
+#site_main .container {
     background-color: white;
-    display: inline-block;
+    height: 800px;
+    width: 600px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    margin-top: 2rem;
+}
+
+/* buttons */
+ 
+.action {
     width: 80px;
-    height: 20px;
-    text-align: center;
-    border-radius: 3px;
-    color: #C7CDD2;
+    height: 30px;
+    border-radius: 4px;
+    color: white;
     font-size: small;
-    border: 1px solid #C7CDD2;
+    border: none;
+    margin-top: 1rem;
+}
+
+.action:hover{
+    opacity: 0.5;
+}
+
+#add_task {
+    margin-left: 3rem;
+    background-color: #45ABEA;
+}
+
+#add_section {
+    margin-left: 0.2rem;
+    background-color: white;
+    color: rgb(128, 128, 128, 0.7);
+    border: 0.5px solid rgb(128, 128, 128, 0.7);
+}
+
+hr {
+    margin-top: 0.5rem;
+    color: rgb(217, 217, 217, 0.3);
 }
