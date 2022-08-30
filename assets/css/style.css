@@ -53,6 +53,10 @@ body {
     margin-top: 2rem;
 }
 
+h2 {
+    margin-top: 3rem;
+}
+
 /* buttons */
  
 .action {
@@ -84,4 +88,55 @@ body {
 hr {
     margin-top: 0.5rem;
     color: rgb(217, 217, 217, 0.3);
+}
+/* to do */
+
+#to_do {
+    margin-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+#entity {
+    font-size: small;
+}
+
+.check {
+    border: 1px solid #64C0A9;
+    display: inline-block;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: #64C0A9;
+    margin-top: 1rem;
+}
+
+.flex {
+    display: flex;
+    vertical-align: middle;
+}
+
+.to_do_text {
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+/* buttons - to do */
+
+.action_2 {
+    width: 70px;
+    height: 30px;
+    font-size: x-small;
+    border-radius: 20px;
+    border: none;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.action_2:hover {
+    opacity: 0.5;
+}
+
+#action_2_blue {
+    background-color: #45ABEA;
 }
