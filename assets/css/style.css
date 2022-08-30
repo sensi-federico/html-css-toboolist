@@ -1,0 +1,13 @@
+
+body {
+    font-family: 'Arial',  sans-serif;
+}
+
+
+#site_header img {
+    vertical-align: middle;
+}
+
+#site_header h1 {
+    font-size: 2.5rem;
+}
