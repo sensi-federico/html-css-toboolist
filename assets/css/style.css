@@ -19,6 +19,7 @@
 body {
     font-family: 'Arial',  sans-serif;
     background-color: #D9D9D9;
+    height: 800px;
 }
 
 /* site_header */
@@ -45,12 +46,13 @@ body {
 
 #site_main .container {
     background-color: white;
-    height: 800px;
+    height: 650px;
     width: 600px;
     position: absolute;
     top: 50%;
     left: 30%;
     margin-top: 2rem;
+    border: 1px solid rgb(217, 217, 217, 0.4);
 }
 
 h2 {
@@ -87,7 +89,7 @@ h2 {
 
 hr {
     margin-top: 0.5rem;
-    color: rgb(217, 217, 217, 0.3);
+    color: rgb(217, 217, 217, 0.4);
 }
 /* to do */
 
@@ -160,4 +162,12 @@ hr {
 
 #action_2_orange {
     background-color: #F29E33;
+}
+
+#action_2_pink {
+    background-color: #D863A1;
+}
+
+#action_2_lightgreen {
+    background-color: #B0C926;
 }
